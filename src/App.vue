@@ -1,12 +1,25 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <app-menu></app-menu>
+    <router-view></router-view>
+    <p>Examen realizado por Israel Gonzálbez Baños</p>
   </div>
 </template>
+
+<script>
+import AppMenu from './components/AppMenu.vue';
+
+export default {
+  name: 'App',
+  components: {
+    AppMenu,
+  },
+  mounted(){
+    this.$store.dispatch('loadEmpresas');
+  }
+}
+</script>
+
 
 <style>
 #app {

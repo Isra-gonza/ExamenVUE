@@ -1,0 +1,46 @@
+{
+  "empresas": [
+    {
+      "id": 1,
+      "nombre": "CIP FP Batoi",
+      "domicilio": "C/ Societat Unió Musical, 2",
+      "localidad": "Alcoi",
+      "contacto": "Juan Segura",
+      "email": "jsegura@bolsa.lan"
+    },
+    {
+      "id": 2,
+      "nombre": "2&2 tu web",
+      "domicilio": "C/ Rue del percebe, 13",
+      "localidad": "Alcoi",
+      "contacto": "Marta Pérez",
+      "email": "mperez@dosydos.lan"
+    }
+  ],
+  "alumnos": [],
+  "ofertas": [
+    {
+      "id": 2,
+      "empresa": 1,
+      "nombre": "Programador back-end",
+      "contrato": "LAB",
+      "contacto": "Juan Segura",
+      "email": "jsegura@bolsa.lan"
+    },
+    {
+      "id": 3,
+      "empresa": 2,
+      "nombre": "Maquetador web",
+      "contrato": "FCT",
+      "contacto": "Marc Molina Segura",
+      "email": "mmolina@dosydos.lan"
+    },
+    {
+      "nombre": "dsfsdfsdfsdfse",
+      "contrato": "LAB",
+      "contacto": "Isra",
+      "email": "dfs@gmail.com",
+      "id": 4
+    }
+  ]
+}
